@@ -1,0 +1,70 @@
+/****** Main Styling ******/
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: linen;
+  background-color: #003c58;
+  text-align: center;
+}
+
+.container {
+  padding: 0;
+  margin-top: 40px;
+}
+
+.footer {
+  margin-top: 60px;
+}
+
+a {
+  color: linen;
+}
+
+.titles {
+  text-align: center;
+  width: 1000px;
+}
+
+hr {
+  width: 100%;
+  margin: 50px 0;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input#button {
+  width: 230px;
+  font-size: 20px;
+  color: #003c58;
+}
+
+.view {
+  position: relative;
+  margin: auto;
+  margin-top: 40px;
+  border: 3px solid linen;
+  border-radius: 10px;
+  padding: 20px;
+  min-width: 500px;
+}
+
+@media screen and (max-width: 1200px), screen and (max-height: 600px) {
+  body {
+    transform: scale(0.8);
+  }
+}

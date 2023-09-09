@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>File Metadata</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="flex">
+    <header class="titles">
+        <h1>File Metadata Microservice</h1>
+        <p>This is an API that return metadata about an uploaded file.</p>
+        <hr />
+    </header>
+
+    <div class="container">
+        <p>
+            Please Upload a File ...
+        </p>
+        <div class="view">
+            <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+                <input id="inputfield" type="file" name="upfile">
+                <input id="button" type="submit" value="Upload">
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        Created by
+        <a href="https://github.com/odakris?tab=repositories" target="_blank">odakris</a>
+        </p>
+    </div>
+</body>
+
+</html>
