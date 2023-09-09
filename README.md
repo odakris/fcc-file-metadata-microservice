@@ -4,9 +4,8 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Express](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MONGODB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
-Live demo of **[URL Shortener Microservice](https://boilerplate-project-filemetadata.odakris.repl.co/)**
+Live demo of **[File Metadata Microservice](https://boilerplate-project-filemetadata.odakris.repl.co/)**
 
 ## Description
 
